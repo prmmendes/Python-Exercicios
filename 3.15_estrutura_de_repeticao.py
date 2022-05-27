@@ -3,12 +3,12 @@
 
 termos = int(input('Quantos termos da sequência de Fibonacci quer gerar? '))
 fibonacci = 0
-a = 0
+a = 1
 b = 1
 fibonacci = 0
 for n in range(0, termos):
     if n == 0:
-        print(a, end=' ')
+        print(a, b, end=' ')
     else:
         fibonacci = b + a
         a = b
