@@ -10,7 +10,7 @@ salario_inicial = 1000
 reajuste = 0.015
 salario_atualizado = salario_inicial + (salario_inicial * 0.015)
 ano_atual = date.today().year
+reajuste = reajuste * 2
 for a in range(1997, ano_atual+1):
-    reajuste = reajuste * 2
-    salario_atualizado = salario_atualizado * reajuste
+    salario_atualizado = salario_atualizado + (salario_atualizado * reajuste)
     print(f'Ano: {a} | Reajuste {reajuste}% | Salário: R${salario_atualizado:.2f}')
