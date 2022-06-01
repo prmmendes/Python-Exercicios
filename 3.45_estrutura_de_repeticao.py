@@ -30,7 +30,7 @@ while q6 != 'A' and q6 != 'B' and q6 != 'C' and q6 !='D' and q6 != 'E':
     q6 = str(input('Digite uma Letra válida: ')).upper()
 q7 = str(input('7 - Letra: ')).upper()
 while q7 != 'A' and q7 != 'B' and q7 != 'C' and q7 !='D' and q7 != 'E':
-    q8 = str(input('Digite uma Letra válida: ')).upper()
+    q7 = str(input('Digite uma Letra válida: ')).upper()
 q8 = str(input('8 - Letra: ')).upper()
 while q8 != 'A' and q8 != 'B' and q8 != 'C' and q8 !='D' and q8 != 'E':
     q8 = str(input('Digite uma Letra válida: ')).upper()
