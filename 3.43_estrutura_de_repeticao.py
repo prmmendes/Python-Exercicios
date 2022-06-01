@@ -36,7 +36,7 @@ while True:
     cod_pedido = int(input('Código do Pedido: [0] para Encerrar Pedido: '))
     if cod_pedido == 0:
         break
-    if cod_pedido < 100 or cod_pedido > 105:
+    while cod_pedido < 100 or cod_pedido > 105:
         cod_pedido = int(input('Pedido Inválido! Consulte Cardápio e digite o Código Correto: '))
     if cod_pedido == 100:
         cachorro_q += 1
