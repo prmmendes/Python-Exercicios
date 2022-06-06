@@ -46,5 +46,5 @@ for s in range(6):
     print(f'{sos[s]} \t\t\t\t {votos[s]} \t\t {(votos[s] / soma_votos)*100:>.1f}')
 print('-' * 30)
 melhor_sistema = votos.index(max(votos))
-print(f'O {sos[melhor_sistema]} foi o mais votado com {max(votos)}, que corresponde a {(max(votos) / sum(votos))*100:.1f}%')
+print(f'O {sos[melhor_sistema]} foi o mais votado com {max(votos)} votos, que corresponde a {(max(votos) / sum(votos))*100:.1f}%')
 
