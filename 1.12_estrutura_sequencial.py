@@ -4,3 +4,4 @@
 altura = float(input('Altura: '))
 pei = (72.7 * altura) - 58
 print(f'Peso ideal {pei:.1f}Kg')
+
